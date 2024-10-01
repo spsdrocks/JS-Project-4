@@ -1,0 +1,106 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  width: 15%;
+  height: 15%;
+  transition: 0.3s;
+  margin-right: 50px;
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+.button:hover {
+  transition: 0.3s;
+  width: 20%;
+  height: 20%;
+}
+
+h1 {
+  font-family: "Bebas Neue", serif;
+  font-size: 75px;
+  margin-top: 35px;
+}
+
+h2 {
+  font-family: "Bebas Neue", serif;
+  font-size: 40px;
+  margin-top: 7px;
+}
+
+hr {
+  border-width: 3px;
+  border-color: black;
+}
+
+.rps {
+  width: 13%;
+  height: 13%;
+}
+
+.hasbro {
+  width: 9%;
+  height: 9%;
+  margin-top: 10px;
+}
+
+.flexbox {
+  display: flex;
+  
+}
+
+.scoreboard {
+  display: flex;
+  width: 300px;
+  font-family: "Bebas Neue", serif;
+  font-size: 30px;
+  
+}
+
+.scoreboard__name,
+.scoreboard__score {
+  padding: 10px;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+
+.scoreboard__name {
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.scoreboard__name--one {
+  color: #C70039;
+}
+
+.scoreboard__name--two {
+  color: #2d0098;
+}
+
+.scoreboard__score {
+  font-size: 2em;
+  padding-top: 2px;
+  padding-bottom: 20px;
+}
+
+table {
+  border: solid black 2px;
+  font-family: "Bebas Neue", serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+tr {
+  border: solid black 2px;
+}
+
+th {
+  border: solid black 2px;
+}
+
+td {
+  border: solid black 2px;
+}
